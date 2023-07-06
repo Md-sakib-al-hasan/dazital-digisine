@@ -35,6 +35,9 @@
     align-items: center;
     background-image: url("images/background.png"),linear-gradient(45deg,rgb(8,8,8),rgb(8,8,8));
     color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .title{
     font-size: 55px;
@@ -52,9 +55,95 @@
     color: white;
     border: none;
     border-radius: 5px;
+    margin-top: 10px;
 
 }
 .btn:hover{
     background-color: white;
     color: black;
+}
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+.about-title{
+    text-align: center;
+    margin: 100px;
+    font-size: 50px;
+
+}
+.about-info{
+    font-style:italic;
+    padding-left: 100px;
+}
+.box{
+    width: 230px;
+    height: 310px;
+    background-color: black;
+    text-align: center;
+    color:white;
+    padding: 10px;
+    box-shadow: 5px 5px 12px 20px  gray;
+    
+}
+.icon{
+    width:70px;
+    margin-top: 10px;
+}
+.box-btn{
+    background-color: gray;
+    border-radius: none;
+}
+.ourservies-title{
+    text-align: center;
+    font-size: 50px;
+}
+.box-h2{
+    padding:10px ;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: black;
+}
+.footer-left{
+    width: 18%;
+    
+    color: white;
+}
+.sk{
+    width: 170px;
+    padding-bottom:10px ;
+}
+
+.footer-container{
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+    color: white;
+    list-style: none;
+
+}
+.footer-right{
+
+}
+.footer-fr{
+    padding-bottom: 10px;
+    font-size: 20px;   
+}
+.li{
+    margin: 5px;
+}
+.footer-enter{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.center-two{
+   margin-left: 20px;
 }
